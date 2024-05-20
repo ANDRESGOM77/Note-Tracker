@@ -1,6 +1,6 @@
 const express = require('express');
-const html_routes = require('./Develop/routes/notes-index');
-const api_routes = require('./Develop/routes/api_routes');
+const html_routes = require('./routes/notes-index');
+const api_routes = require('./routes/api_routes');
 const paths = require('path');
 
 const PORT =  5001;
